@@ -5,7 +5,7 @@ insulating and metallic material, what fraction of this material needs to be met
  The specification of this assigment can be viewed at [this link](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php).
 
 ## How to run this project
- To run these programs you need to have Java installed and configured (version >= 5.0) as well as add <strong><i>algs4.jar</i></strong> to the classpath.
+ To run these programs you need to have Java installed and configured (version >= 5.0) as well as <strong><i>algs4.jar</i></strong> added to the classpath.
 
 ### Obs.
 
