@@ -45,8 +45,7 @@ element in the virtual bottom.
 
 ### Joining concepts 
 Using the matrix as the basis for the percolation system; a method for translating elements in the matrix to a an array position; <br>
-and the union find that, at its core, uses an array to do the operations needed, we have the complete set of concepts and solutions <br>
-that were used to solve the percolation problem.
+and the union find that, at its core, uses an array to do the operations needed, we have the complete set of concepts and solutions that were used to solve the percolation problem.
 
 ## How to run this project
  To run these programs you need to have Java installed and configured (version >= 5.0) as well as add <strong><i>algs4.jar</i></strong> <br>
