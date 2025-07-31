@@ -31,20 +31,20 @@ we have a mapping to an array position of 11 <br><br>
 ![Four by four matrix enumerating each element to an integer following the mathematical relation previously established](/doc/matrizpercolation.png)
 
 ### Union-find Data structure 
-The Union-find data structure is used to solve the problem of dynamic connectivity. This data structure is capable of, given <br>
-a set of integers, and given that we can connect pairs in this set, union find is capable of "remembering" these connections, <br>
-as well as connecting pairs and efficiently verifying if a element p is connected to a element q in a set. Applied to the <br>
-percolation problem, we use this data structure to model the connections among the sites. One of the main challenges were <br>
+The Union-find data structure is used to solve the problem of dynamic connectivity. This data structure is capable of, given 
+a set of integers, and given that we can connect pairs in this set, union find is capable of "remembering" these connections, 
+as well as connecting pairs and efficiently verifying if a element p is connected to a element q in a set. Applied to the 
+percolation problem, we use this data structure to model the connections among the sites. One of the main challenges were 
 to know when do a simulation percolates, and to address this issue, it was used the concept of "virtual top" and "virtual bottom" <br><br>
 
 ![Virtual top and virtual bottom](/doc/percolation.jpg)
 
-As we can see in the image above, the virtual top is connected to the first row of the matrix. Similarly, the virtual bottom is <br>
-connected to the last row of the matrix. We say that a system percolates if any element in the virtual top is connected to any <br>
+As we can see in the image above, the virtual top is connected to the first row of the matrix. Similarly, the virtual bottom is 
+connected to the last row of the matrix. We say that a system percolates if any element in the virtual top is connected to any 
 element in the virtual bottom.
 
 ### Joining concepts 
-Using the matrix as the basis for the percolation system; a method for translating elements in the matrix to a an array position; <br>
+Using the matrix as the basis for the percolation system; a method for translating elements in the matrix to a an array position; 
 and the union find that, at its core, uses an array to do the operations needed, we have the complete set of concepts and solutions that were used to solve the percolation problem.
 
 ## How to run this project
